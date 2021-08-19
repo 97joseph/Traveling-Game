@@ -1,0 +1,28 @@
+# mode = mode of transport (plane, train, bus, taxi, walk)
+# departurePlace = any location name (String)
+# departureDate = date in dd/MM/yyyy format
+# departureTime = time in HH:mm format
+# arrivalPlace = any location name (String)
+# arrivalDate = date in dd/MM/yyyy format
+# arrivalTime = time in HH:mm format
+# price = ticket or fare price in pounds
+# distance = travel distance rounded to the nearest km
+#
+mode=plane,departurePlace=Glasgow,departureDate=01/09/2021,departureTime=18:05,arrivalPlace=London,arrivalDate=01/09/2021,arrivalTime=19:35,price=27.0,distance=604
+mode=train,departurePlace=Glasgow,departureDate=01/09/2021,departureTime=16:40,arrivalPlace=London,arrivalDate=01/09/2021,arrivalTime=21:34,price=33.9,distance=615
+mode=train,departurePlace=Glasgow,departureDate=01/09/2021,departureTime=16:15,arrivalPlace=Edinburgh,arrivalDate=01/09/2021,arrivalTime=17:04,price=13.5,distance=75
+mode=bus,departurePlace=Glasgow,departureDate=01/09/2021,departureTime=16:00,arrivalPlace=Edinburgh,arrivalDate=01/09/2021,arrivalTime=17:15,price=8.5,distance=74
+mode=taxi,departurePlace=Glasgow,arrivalPlace=Lake District,travelTime=2:28,distance=256,price=211.30
+mode=train,departurePlace=Edinburgh,departureDate=01/09/2021,departureTime=17:30,arrivalPlace=London,arrivalDate=01/09/2021,arrivalTime=22:09,price=60.5,distance=633
+mode=walk,departurePlace=Glasgow,arrivalPlace=London,travelTime=139:00,distance=673
+mode=taxi,departurePlace=Glasgow,arrivalPlace=Edinburgh,travelTime=1:20,price=62.0,distance=74
+mode=taxi,departurePlace=Edinburgh,arrivalPlace=St. Andrews,travelTime=1:15,price=100.9,distance=84
+mode=walk,departurePlace=St. Andrews,arrivalPlace=Edinburgh,travelTime=17:03,distance=82
+mode=plane,departurePlace=Kirkwall,departureDate=03/09/2021,departureTime=19:00,arrivalPlace=Edinburgh,arrivalDate=03/09/2021,arrivalTime=20:10,price=137.0,distance=344
+mode=plane,departurePlace=London,departureDate=02/09/2021,departureTime=18:55,arrivalPlace=Inverness,arrivalDate=02/09/2021,arrivalTime=20:25,price=25.0,distance=734
+mode=taxi,departurePlace=Glasgow,arrivalPlace=Oban,travelTime=02:15,price=136.7,distance=159
+mode=bus,departurePlace=Stirling,departureDate=04/09/2021,departureTime=00:10,arrivalPlace=Perth,arrivalDate=04/09/2021,arrivalTime=00:45,price=7.5,distance=54
+mode=bus,departurePlace=Inverness,departureDate=13/08/2021,departureTime=08:45,arrivalPlace=Portree,arrivalDate=13/08/2021,arrivalTime=12:02,price=20.05,distance=183
+mode=train,departurePlace=Edinburgh,departureDate=01/09/2021,departureTime=18:52,arrivalPlace=London,arrivalDate=02/09/2021,arrivalTime=01:13,price=33.9,distance=633
+mode=walk,departurePlace=Edinburgh,arrivalPlace=Musselburgh,travelTime=1:51,distance=9
+mode=walk,departurePlace=Edinburgh,arrivalPlace=Queensferry,travelTime=4:00,distance=19
